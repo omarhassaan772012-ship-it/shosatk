@@ -244,8 +244,8 @@ a{
 .a1 {
     border-radius: 50px;
     position: absolute;
-    top: 80%;
-    left: 60%;
+    top: 83%;
+    left: 67%;
     transform: translate(-50%, -50%);
     width: auto;
     min-width: 100px;
@@ -264,8 +264,8 @@ a{
 .a2{
     border-radius: 50px;
     position: absolute;
-    top: 80%;
-    left: 40%;
+    top: 83%;
+    left: 33%;
     transform: translate(-50%, -50%);
     width: auto;
     min-width: 100px;
@@ -279,6 +279,7 @@ a{
     cursor: pointer;
     z-index: 10;
     white-space: nowrap;
+    margin-right: 20px;
 }
 
 .a3{
