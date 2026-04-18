@@ -17,11 +17,11 @@
     <div class="product-container">
         <div class="product-images">
             <div class="main-image">
-                <img id="main-product-img" src="RU26033.webp" alt="صورة المنتج الرئيسية">
+                <img id="main-product-img" data-src="RU26033.webp" alt="صورة المنتج الرئيسية">
             </div>
             <div class="thumbnail-images">
-                <img class="thumbnail active" src="RU26033.webp" alt="صورة 1" onclick="changeMainImage('RU26033.webp')">
-                <img class="thumbnail" src="RU26033h.webp" alt="صورة 2" onclick="changeMainImage('RU26033h.webp')">
+                <img class="thumbnail active" data-src="RU26033.webp" alt="صورة 1" onclick="changeMainImage('RU26033.webp')">
+                <img class="thumbnail" data-src="RU26033h.webp" alt="صورة 2" onclick="changeMainImage('RU26033h.webp')">
             </div>
         </div>
 
@@ -96,5 +96,6 @@
     </div>
 
     <script src="p.js"></script>
+    <script src="lazy-load.js"></script>
 </body>
 </html>
