@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="p.css">
     <link rel="icon" href="logo.png" type="image/x-icon">
-    <title>شوذاتك - تفاصيل المنتج</title>
+    <title>Shosatk - Product Details</title>
 </head>
 <body>
     <div class="montag"> 
-        <div class="title">شوذاتك</div>
-        <div class="t1"><a href="home.html">الأحذية</a></div>
-        <div class="t2"><a href="#">التواصل</a></div>
+        <div class="title">Shosatk</div>
+        <div class="t1"><a href="home.html">Shoes</a></div>
+        <div class="t2"><a href="#">Contact</a></div>
     </div>
 
     <div class="product-container">
         <div class="product-images">
             <div class="main-image">
-                <img id="main-product-img" data-src="RU26033.webp" alt="صورة المنتج الرئيسية">
+                <img id="main-product-img" data-src="RU26033.webp" alt="Main Product Image">
             </div>
             <div class="thumbnail-images">
-                <img class="thumbnail active" data-src="RU26033.webp" alt="صورة 1" onclick="changeMainImage('RU26033.webp')">
-                <img class="thumbnail" data-src="RU26033h.webp" alt="صورة 2" onclick="changeMainImage('RU26033h.webp')">
+                <img class="thumbnail active" data-src="RU26033.webp" alt="Image 1" onclick="changeMainImage('RU26033.webp')">
+                <img class="thumbnail" data-src="RU26033h.webp" alt="Image 2" onclick="changeMainImage('RU26033h.webp')">
             </div>
         </div>
 
@@ -29,16 +29,16 @@
             <h1 class="product-name" id="product-name">Urban-WHITE/DARK GREEN</h1>
             <div class="product-price">
                 <span class="price" id="product-price">250</span>
-                <span class="currency">جنيه</span>
+                <span class="currency">EGP</span>
             </div>
             
             <div class="product-description">
-                <h3>الوصف</h3>
-                <p>حذاء رياضي أنيق ومريح من مجموعة Urban، مصمم للراحة والأسلوب. يتميز بتصميم عصري وألوان جذابة تناسب جميع الأذواق.</p>
+                <h3>Description</h3>
+                <p>Elegant and comfortable sports shoe from the Urban collection, designed for comfort and style. Features modern design and attractive colors suitable for all tastes.</p>
             </div>
 
             <div class="size-selection">
-                <h3>اختر المقاس</h3>
+                <h3>Select Size</h3>
                 <div class="sizes">
                     <button class="size-btn" onclick="selectSize(this)">38</button>
                     <button class="size-btn" onclick="selectSize(this)">39</button>
@@ -51,7 +51,7 @@
             </div>
 
             <div class="color-selection">
-                <h3>اختر اللون</h3>
+                <h3>Select Color</h3>
                 <div class="colors">
                     <div class="color-option active" style="background-color: #ffffff; border: 2px solid #0F555A;" onclick="selectColor(this)"></div>
                     <div class="color-option" style="background-color: #263743;" onclick="selectColor(this)"></div>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="quantity-selection">
-                <h3>الكمية</h3>
+                <h3>Quantity</h3>
                 <div class="quantity-controls">
                     <button class="qty-btn" onclick="decreaseQuantity()">-</button>
                     <span class="quantity" id="quantity">1</span>
@@ -71,25 +71,25 @@
 
             <div class="product-actions">
                 <button class="add-to-cart-btn" onclick="addToCart()">
-                    <span>إضافة إلى السلة</span>
+                    <span>Add to Cart</span>
                 </button>
                 <button class="buy-now-btn" onclick="buyNow()">
-                    <span>شراء الآن</span>
+                    <span>Buy Now</span>
                 </button>
             </div>
 
             <div class="product-features">
                 <div class="feature">
                     <span class="feature-icon">🚚</span>
-                    <span>شحن مجاني</span>
+                    <span>Free Shipping</span>
                 </div>
                 <div class="feature">
                     <span class="feature-icon">↩️</span>
-                    <span>إرجاع مجاني</span>
+                    <span>Free Returns</span>
                 </div>
                 <div class="feature">
                     <span class="feature-icon">✓</span>
-                    <span>ضمان الجودة</span>
+                    <span>Quality Guarantee</span>
                 </div>
             </div>
         </div>

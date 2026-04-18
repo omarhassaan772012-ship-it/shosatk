@@ -5,56 +5,56 @@ const productsDatabase = {
         price: '250',
         image: 'RU26027.webp',
         hoverImage: 'RU26027h.webp',
-        description: 'حذاء رياضي أنيق من مجموعة AIRLIFE، مصمم للراحة والأداء. يتميز بتصميم عصري ولون رمادي كلاسيكي.'
+        description: 'Elegant sports shoe from the AIRLIFE collection, designed for comfort and performance. Features modern design with classic gray color.'
     },
     2: {
         name: 'AIRLIFE SPORT SHOES-BLACK',
         price: '250',
         image: 'RU26025.webp',
         hoverImage: 'RU26025h.webp',
-        description: 'حذاء رياضي أسود أنيق من مجموعة AIRLIFE، مثالي للاستخدام اليومي والرياضي.'
+        description: 'Elegant black sports shoe from the AIRLIFE collection, perfect for daily wear and sports activities.'
     },
     3: {
         name: 'AIRLIFE SPORT SHOES-BLUE',
         price: '250',
         image: 'RU26031.webp',
         hoverImage: 'RU26031h.webp',
-        description: 'حذاء رياضي أزرق جذاب من مجموعة AIRLIFE، يجمع بين الأناقة والراحة.'
+        description: 'Attractive blue sports shoe from the AIRLIFE collection, combining elegance and comfort.'
     },
     4: {
         name: 'AIRLIFE SPORT SHOES-D.GRAY',
         price: '250',
         image: 'RU26032.webp',
         hoverImage: 'RU26032h.webp',
-        description: 'حذاء رياضي رمادي داكن من مجموعة AIRLIFE، يتميز بتصميم عصري ومريح.'
+        description: 'Dark gray sports shoe from the AIRLIFE collection, featuring modern and comfortable design.'
     },
     5: {
         name: 'AIRLIFE SPORT SHOES-D.GRAY',
         price: '250',
         image: 'RU25339.webp',
         hoverImage: 'RU25339h.webp',
-        description: 'حذاء رياضي رمادي داكن أنيق من مجموعة AIRLIFE، مناسب لجميع المناسبات.'
+        description: 'Elegant dark gray sports shoe from the AIRLIFE collection, suitable for all occasions.'
     },
     6: {
         name: 'Urban-WHITE/DARK GREEN',
         price: '675',
         image: 'RU26033.webp',
         hoverImage: 'RU26033h.webp',
-        description: 'حذاء رياضي أنيق ومريح من مجموعة Urban، مصمم للراحة والأسلوب. يتميز بتصميم عصري وألوان جذابة تناسب جميع الأذواق.'
+        description: 'Elegant and comfortable sports shoe from the Urban collection, designed for comfort and style. Features modern design and attractive colors suitable for all tastes.'
     },
     7: {
         name: 'Urban-Light Brown',
         price: '250',
         image: 'RU26034.webp',
         hoverImage: 'RU26034h.webp',
-        description: 'حذاء Urban بلون بني فاتح أنيق، يجمع بين الكلاسيكية والحداثة.'
+        description: 'Elegant Urban shoe in light brown color, combining classic and modern styles.'
     },
     8: {
         name: 'Urban White / Blue-Women',
         price: '250',
         image: 'RU26040.webp',
         hoverImage: 'RU26040h.webp',
-        description: 'حذاء Urban للنساء بألوان بيضاء وزرقاء جذابة، مصمم خصيصاً للأناقة والراحة.'
+        description: 'Urban women\'s shoe with attractive white and blue colors, designed specifically for elegance and comfort.'
     }
 };
 
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     let cart = JSON.parse(localStorage.getItem('cart')) || [];
                     cart.push(productData);
                     localStorage.setItem('cart', JSON.stringify(cart));
-                    alert('تم إضافة المنتج إلى السلة بنجاح!');
+                    alert('Product added to cart successfully!');
                 }
                 return;
             }

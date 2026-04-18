@@ -287,6 +287,7 @@ a{
     position: absolute;
     top: 52%;
     left: 50%;
+    margin-top: -20px;
     transform: translate(-50%, -50%);
     font-size: 70px;
     width: auto;
